@@ -1,0 +1,9 @@
+DEPTH = 1;           % Memory depth and width are required %
+WIDTH = 32;           % Enter a decimal number %
+ADDRESS_RADIX = HEX;  % Address and value radixes are optional %
+DATA_RADIX = HEX;     % Enter BIN, DEC, HEX, or OCT; unless %
+CONTENT               % otherwise specified, radixes = HEX %
+
+BEGIN
+
+End ;

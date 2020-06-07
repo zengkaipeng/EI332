@@ -1,0 +1,2 @@
+module pipeexe( ealuc,ealuimm,ea,eb,eimm, esa, eshift,ern0,epc4,ejal,ern,ealu);
+endmodule

@@ -1,0 +1,2 @@
+module pipemem( resetn,mwmem,malu,mb,clock,mem_clock,mmo,
+			real_in_port0,real_in_port1, real_out_port0, real_out_port1, real_out_port2);

@@ -1,0 +1,1 @@
+module pipeemreg(ewreg,em2reg,ewmem,ealu,eb,ern,clock,resetn, mwreg,mm2reg,mwmem,malu,mb,mrn)

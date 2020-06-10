@@ -46,7 +46,6 @@ module pipelined_computer (resetn,clock,mem_clock,opc,oinst,oins,oealu,omalu,owa
 	
 	// for test
 	
-	
    // ģ���以��������ݻ�������Ϣ�ĺ���,��Ϊ 32 λ���ź� ��IFȡָ���׶�
    wire   [31:0] dpc4,da,db,dimm,dsa;
    // ģ���以 ����� ���ݻ����� ��Ϣ�ĺ��� ,��Ϊ 32 λ���ź� ��ID ָ�������׶Ρ�

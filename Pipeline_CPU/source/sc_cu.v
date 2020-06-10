@@ -52,8 +52,8 @@ module sc_cu (
 	assign wpcir = ~(em2reg & ( ern == rs | ern == rt ));
 	wire ctrlable = wpcir & ~ebubble;
 	
-   assign pcsource[1] = i_jr | i_j | i_jal;
-   assign pcsource[0] = ( i_beq & z ) | (i_bne & ~z) | i_j | i_jal ;
+   assign pcsource[1] = (i_jr | i_j | i_jal) & ctrlable;
+   assign pcsource[0] = (( i_beq & z ) | (i_bne & ~z) | i_j | i_jal) & ctrlable;
    
    assign wreg = ctrlable &( i_add | i_sub | i_and  | i_or   | i_xor  |
 							i_sll | i_srl | i_sra | i_addi | i_andi |

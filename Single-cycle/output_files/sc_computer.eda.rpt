@@ -1,0 +1,92 @@
+EDA Netlist Writer report for sc_computer
+Wed May 27 18:01:08 2020
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Wed May 27 18:01:08 2020 ;
+; Revision Name             ; sc_computer                           ;
+; Top-level Entity Name     ; sc_computer                           ;
+; Family                    ; Cyclone II                            ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                             ;
++----------------------------------------------------------------------------------------+
+; Generated Files                                                                        ;
++----------------------------------------------------------------------------------------+
+; E:/sjtu/Computer_Organization/Hardware/Single-cycle/simulation/modelsim/sc_computer.vo ;
++----------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit EDA Netlist Writer
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Wed May 27 18:01:05 2020
+Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog sc_computer -c sc_computer
+Info (204019): Generated file sc_computer.vo in folder "E:/sjtu/Computer_Organization/Hardware/Single-cycle/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4548 megabytes
+    Info: Processing ended: Wed May 27 18:01:08 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu May 14 17:36:11 2020
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : sc_computer
+Top-level Entity Name : sc_computer
+Family : Cyclone II
+Device : EP2C5AF256I8
+Timing Models : Final
+Total logic elements : 3,010 / 4,608 ( 65 % )
+    Total combinational functions : 2,423 / 4,608 ( 53 % )
+    Dedicated logic registers : 1,024 / 4,608 ( 22 % )
+Total registers : 1024
+Total pins : 133 / 158 ( 84 % )
+Total virtual pins : 0
+Total memory bits : 3,072 / 119,808 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

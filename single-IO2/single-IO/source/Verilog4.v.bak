@@ -1,0 +1,3 @@
+module io_input(
+	addr, io_clk, io_read_data, in_port0, in_port1
+);

@@ -1,0 +1,3 @@
+module io_output(
+	addr, datain, write_io_enable, io_clk, out_port0, out_port1, out_port2
+);

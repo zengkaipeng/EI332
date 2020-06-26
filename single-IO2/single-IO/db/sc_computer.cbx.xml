@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sc_computer">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst5|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst6|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst7|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|sc_computer_main:inst4|sc_datamem:dmem|lpm_ram_dq_dram:dram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_38f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst5|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst6|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|out_port_seg:inst7|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sc_computer|sc_computer_main:inst4|sc_instmem:imem|lpm_rom_irom:irom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_mpb1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

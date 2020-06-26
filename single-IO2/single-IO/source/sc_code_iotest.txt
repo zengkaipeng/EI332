@@ -1,0 +1,10 @@
+main: addi $1, $0, 128 # outport0, inport0
+      addi $2, $0, 132 # outport1, inport1
+      addi $3, $0, 136 # outport2
+loop: lw   $4, 0($1)         # input inport0 to $4
+      lw   $5, 0($2)         # input inport1 to $5
+      add  $6, $4, $5        # add inport0 with inport1 to $6
+      sw   $4, 0($1)         # output inport0 to outport0
+      sw   $5, 0($2)         # output inport1 to outport1
+      sw   $6, 0($3)         # output result to outport2
+      j loop

@@ -1,0 +1,10 @@
+module clk_and_mem_clk(clk, clock_out);
+	input clk;
+	output clock_out;
+	reg clock_out;
+	
+	always @(posedge clk)
+	begin
+		clock_out <= ~clock_out;
+	end
+endmodule
